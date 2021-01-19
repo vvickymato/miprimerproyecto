@@ -1,0 +1,121 @@
+nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+.flexMenu li a {
+    text-decoration: none;
+    color:#c9e2e0
+    padding: 20px;
+}
+
+.flexMenu li a:hover {
+    background-color: white;
+    color:#f9af4e;
+    padding: 20px;
+}
+#grid{
+    display: grid;
+}
+#banner{
+    display:grid;
+    justify-content: center;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: auto;
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns: 500px;
+    grid-template-rows: auto
+    ;
+}
+.contenedorPadre{
+display: flex;
+flex-direction: column;
+background-color: #d9ece2;
+justify-content: center;
+}
+
+.contenedorHijo1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorPadre1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.propiedadesTitulo{
+    background-color: #f9af4e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+.quiensoy{
+    background-color:orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:15px;
+    width: 650px;
+    height: 500px;
+    font-size: 30px ;
+}
+
+menu{
+    list-style-type: none;
+    display: inline;
+    padding:20px;
+    
+
+}
+h3 { 
+    color: #c4aed0
+}
+.negrita {
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-style: italic;
+
+}
+
+h2 {
+    color: chocolate
+}
+.italica { 
+    font-style: italic;
+
+}
+h3 { 
+    font-size: 150%;
+    font-style:italic ;
+}
+h4 {
+    font-size: 100% ;
+    
+}
+ol li {
+    color: darkmagenta;
+}
+form {
+    color: darkmagenta;
+}
